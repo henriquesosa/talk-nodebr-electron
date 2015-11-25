@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Palestra Electron</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="resources/vendor/highlight.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+            	<!-- TITULO -->
+
+       			<section>
+	            	<h1>Desenvolvedor Front-end também pode criar Aplicações Desktop</h1>
+	          	</section>
+
+            	<!--APRESENTAÇÂO -->
+
+	          	<section>
+	          		<div class="profile-pic"><img src="resources/henrique.jpeg"></div>
+	            	<h2>Henrique Sosa</h1>
+	            	<h3>Front-end Developer at @sta_monica</h3>
+	            	<h4>@henriquesosa</h4>
+	          	</section>
+
+	          	
+
+	          	
+
+	          	<!--INTRO SOBRE ATOM -->
+
+	          	<section data-background="#FFF">
+	            	<img src="resources/github-logo.png" alt="" />
+	          	</section>
+
+	          	<section class="build">
+	          		<img  class="fragment-fixed" src="resources/chromium-logo.png" alt="" />
+	          		<img  class="fragment" src="resources/io-logo.png" alt="" />
+	          	</section>
+
+	          	<section>
+	          		<h2>Porque Chromium & Nw.js?</h2>
+	          	</section>
+
+	          	<section>
+	          		<h2>... E assim nasceu o Atom Shell</h2>
+	          	</section> 
+
+	          	<section data-background="#A5ECFA">
+	            	<img src="resources/electron-logo.svg" alt="" />
+	          	</section>
+
+	          	<!--ELECTRON-->
+
+	          	<section class="examples">
+	          		<h2 class="fragment">Atom.io</h2>
+	          		<h2 class="fragment">Slack</h2>
+	          		<h2 class="fragment">Visual Studio Code</h2>
+	          		<h2 class="fragment">Avocode</h2>
+	          	</section> 
+
+	          	<!--FIM -->
+
+	          	<section>
+	            	<h1>Let's Code</h1>
+	          	</section>
+	
+				<section>
+	            	<h1>Thank you!</h1>
+	          	</section>
+            </div>
+
+        </div>
+	
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=bsh;skin=Desert"></script>
+        <script>
+
+          // Full list of configuration options available at:
+          // https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            controls: true,
+            progress: false,
+            history: true,
+            center: true,
+
+            transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+              { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true }
+            ]
+          });
+
+        </script>
+    </body>
+
+</html>

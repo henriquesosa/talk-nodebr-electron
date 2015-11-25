@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(resources/fonts/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url(resources/fonts/SourceSansPro-Bold.ttf) format("truetype");
+}
+
+body{
+	background: #fafafa;
+	color:#333;
+	line-height: 35px;
+	font-family: "Source Sans Pro";
+	letter-spacing: normal;
+}
+
+.profile-pic{
+	width: 250px;
+	margin:15px auto !important;
+	border-radius: 100%;
+	overflow: hidden;
+	display: block;
+}
+
+.profile-pic img{
+	width: 100%;
+}
+
+.build .fragment, .build .fragment-fixed{
+	width: 30%;
+	display: inline-block;
+	margin-right: 50px !important;
+}
+
+.examples h2{
+	line-height: 60px;
+}
+
+h1,h2{
+	text-transform: uppercase;
+	font-family: "Source Sans Pro Bold" !important;
+}
+
+h1{
+	font-size: 60px !important;
+	line-height: 65px !important;
+}
+h2{
+	font-size: 45px !important;
+}
+h3{font-size: 30px !important;}
+h4{font-size: 20px !important;}
+

@@ -1,0 +1,16 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "authors": [
+    "Henrique Sosa <henriquesosa@gmail.com>"
+  ],
+  "description": "My talk about Electron",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "reveal.js": "~3.2.0",
+    "jquery": "~2.1.4"
+  }
+}
