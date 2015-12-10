@@ -53,3 +53,9 @@ h2{
 h3{font-size: 30px !important;}
 h4{font-size: 20px !important;}
 
+p{
+	font-size: 40px !important;
+	padding-top: 50px !important;
+	display: block !important;
+}
+
